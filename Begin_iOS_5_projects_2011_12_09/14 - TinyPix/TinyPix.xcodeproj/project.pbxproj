@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81A9AA0414718A4400A1CAEE /* BIDTinyPixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9AA0314718A4400A1CAEE /* BIDTinyPixView.m */; };
+		81E12ED214701B50005FAD50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E12ED114701B50005FAD50 /* UIKit.framework */; };
+		81E12ED414701B50005FAD50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E12ED314701B50005FAD50 /* Foundation.framework */; };
+		81E12ED614701B50005FAD50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E12ED514701B50005FAD50 /* CoreGraphics.framework */; };
+		81E12EDC14701B50005FAD50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E12EDA14701B50005FAD50 /* InfoPlist.strings */; };
+		81E12EDE14701B50005FAD50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E12EDD14701B50005FAD50 /* main.m */; };
+		81E12EE214701B50005FAD50 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E12EE114701B50005FAD50 /* BIDAppDelegate.m */; };
+		81E12EE514701B50005FAD50 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E12EE314701B50005FAD50 /* MainStoryboard.storyboard */; };
+		81E12EE814701B50005FAD50 /* BIDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E12EE714701B50005FAD50 /* BIDMasterViewController.m */; };
+		81E12EEB14701B50005FAD50 /* BIDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E12EEA14701B50005FAD50 /* BIDDetailViewController.m */; };
+		81E12EF714701BE6005FAD50 /* BIDTinyPixDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E12EF614701BE6005FAD50 /* BIDTinyPixDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81A9AA0214718A4400A1CAEE /* BIDTinyPixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTinyPixView.h; sourceTree = "<group>"; };
+		81A9AA0314718A4400A1CAEE /* BIDTinyPixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTinyPixView.m; sourceTree = "<group>"; };
+		81E12ECD14701B50005FAD50 /* TinyPix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyPix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E12ED114701B50005FAD50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81E12ED314701B50005FAD50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81E12ED514701B50005FAD50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81E12ED914701B50005FAD50 /* TinyPix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinyPix-Info.plist"; sourceTree = "<group>"; };
+		81E12EDB14701B50005FAD50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81E12EDD14701B50005FAD50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81E12EDF14701B50005FAD50 /* TinyPix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinyPix-Prefix.pch"; sourceTree = "<group>"; };
+		81E12EE014701B50005FAD50 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		81E12EE114701B50005FAD50 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		81E12EE414701B50005FAD50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		81E12EE614701B50005FAD50 /* BIDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDMasterViewController.h; sourceTree = "<group>"; };
+		81E12EE714701B50005FAD50 /* BIDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDMasterViewController.m; sourceTree = "<group>"; };
+		81E12EE914701B50005FAD50 /* BIDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDetailViewController.h; sourceTree = "<group>"; };
+		81E12EEA14701B50005FAD50 /* BIDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDetailViewController.m; sourceTree = "<group>"; };
+		81E12EF514701BE6005FAD50 /* BIDTinyPixDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDTinyPixDocument.h; sourceTree = "<group>"; };
+		81E12EF614701BE6005FAD50 /* BIDTinyPixDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDTinyPixDocument.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E12ECA14701B50005FAD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E12ED214701B50005FAD50 /* UIKit.framework in Frameworks */,
+				81E12ED414701B50005FAD50 /* Foundation.framework in Frameworks */,
+				81E12ED614701B50005FAD50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E12EC214701B50005FAD50 = {
+			isa = PBXGroup;
+			children = (
+				81E12ED714701B50005FAD50 /* TinyPix */,
+				81E12ED014701B50005FAD50 /* Frameworks */,
+				81E12ECE14701B50005FAD50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81E12ECE14701B50005FAD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E12ECD14701B50005FAD50 /* TinyPix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E12ED014701B50005FAD50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E12ED114701B50005FAD50 /* UIKit.framework */,
+				81E12ED314701B50005FAD50 /* Foundation.framework */,
+				81E12ED514701B50005FAD50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81E12ED714701B50005FAD50 /* TinyPix */ = {
+			isa = PBXGroup;
+			children = (
+				81E12EE014701B50005FAD50 /* BIDAppDelegate.h */,
+				81E12EE114701B50005FAD50 /* BIDAppDelegate.m */,
+				81E12EE314701B50005FAD50 /* MainStoryboard.storyboard */,
+				81E12EE614701B50005FAD50 /* BIDMasterViewController.h */,
+				81E12EE714701B50005FAD50 /* BIDMasterViewController.m */,
+				81E12EE914701B50005FAD50 /* BIDDetailViewController.h */,
+				81E12EEA14701B50005FAD50 /* BIDDetailViewController.m */,
+				81E12ED814701B50005FAD50 /* Supporting Files */,
+				81E12EF514701BE6005FAD50 /* BIDTinyPixDocument.h */,
+				81E12EF614701BE6005FAD50 /* BIDTinyPixDocument.m */,
+				81A9AA0214718A4400A1CAEE /* BIDTinyPixView.h */,
+				81A9AA0314718A4400A1CAEE /* BIDTinyPixView.m */,
+			);
+			path = TinyPix;
+			sourceTree = "<group>";
+		};
+		81E12ED814701B50005FAD50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81E12ED914701B50005FAD50 /* TinyPix-Info.plist */,
+				81E12EDA14701B50005FAD50 /* InfoPlist.strings */,
+				81E12EDD14701B50005FAD50 /* main.m */,
+				81E12EDF14701B50005FAD50 /* TinyPix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E12ECC14701B50005FAD50 /* TinyPix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E12EEE14701B50005FAD50 /* Build configuration list for PBXNativeTarget "TinyPix" */;
+			buildPhases = (
+				81E12EC914701B50005FAD50 /* Sources */,
+				81E12ECA14701B50005FAD50 /* Frameworks */,
+				81E12ECB14701B50005FAD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyPix;
+			productName = TinyPix;
+			productReference = 81E12ECD14701B50005FAD50 /* TinyPix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E12EC414701B50005FAD50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81E12EC714701B50005FAD50 /* Build configuration list for PBXProject "TinyPix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81E12EC214701B50005FAD50;
+			productRefGroup = 81E12ECE14701B50005FAD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E12ECC14701B50005FAD50 /* TinyPix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81E12ECB14701B50005FAD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E12EDC14701B50005FAD50 /* InfoPlist.strings in Resources */,
+				81E12EE514701B50005FAD50 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E12EC914701B50005FAD50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E12EDE14701B50005FAD50 /* main.m in Sources */,
+				81E12EE214701B50005FAD50 /* BIDAppDelegate.m in Sources */,
+				81E12EE814701B50005FAD50 /* BIDMasterViewController.m in Sources */,
+				81E12EEB14701B50005FAD50 /* BIDDetailViewController.m in Sources */,
+				81E12EF714701BE6005FAD50 /* BIDTinyPixDocument.m in Sources */,
+				81A9AA0414718A4400A1CAEE /* BIDTinyPixView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81E12EDA14701B50005FAD50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E12EDB14701B50005FAD50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81E12EE314701B50005FAD50 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E12EE414701B50005FAD50 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81E12EEC14701B50005FAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81E12EED14701B50005FAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81E12EEF14701B50005FAD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyPix/TinyPix-Prefix.pch";
+				INFOPLIST_FILE = "TinyPix/TinyPix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81E12EF014701B50005FAD50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TinyPix/TinyPix-Prefix.pch";
+				INFOPLIST_FILE = "TinyPix/TinyPix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E12EC714701B50005FAD50 /* Build configuration list for PBXProject "TinyPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E12EEC14701B50005FAD50 /* Debug */,
+				81E12EED14701B50005FAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E12EEE14701B50005FAD50 /* Build configuration list for PBXNativeTarget "TinyPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E12EEF14701B50005FAD50 /* Debug */,
+				81E12EF014701B50005FAD50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E12EC414701B50005FAD50 /* Project object */;
+}

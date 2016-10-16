@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23D086D3142B07620058AEE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D086D2142B07620058AEE8 /* UIKit.framework */; };
+		23D086D5142B07620058AEE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D086D4142B07620058AEE8 /* Foundation.framework */; };
+		23D086D7142B07620058AEE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D086D6142B07620058AEE8 /* CoreGraphics.framework */; };
+		23D086DD142B07620058AEE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23D086DB142B07620058AEE8 /* InfoPlist.strings */; };
+		23D086DF142B07620058AEE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D086DE142B07620058AEE8 /* main.m */; };
+		23D086E3142B07620058AEE8 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D086E2142B07620058AEE8 /* BIDAppDelegate.m */; };
+		23D086EB142B07B50058AEE8 /* BIDFirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D086EA142B07B50058AEE8 /* BIDFirstLevelController.m */; };
+		23D086EE142B08E40058AEE8 /* BIDSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D086ED142B08E40058AEE8 /* BIDSecondLevelViewController.m */; };
+		23D086F8142B099D0058AEE8 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F0142B099D0058AEE8 /* button_down.png */; };
+		23D086F9142B099D0058AEE8 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F1142B099D0058AEE8 /* button_up.png */; };
+		23D086FA142B099D0058AEE8 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F2142B099D0058AEE8 /* checkmarkControllerIcon.png */; };
+		23D086FB142B099D0058AEE8 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F3142B099D0058AEE8 /* deleteMeIcon.png */; };
+		23D086FC142B099D0058AEE8 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F4142B099D0058AEE8 /* detailEditIcon.png */; };
+		23D086FD142B099D0058AEE8 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F5142B099D0058AEE8 /* disclosureButtonControllerIcon.png */; };
+		23D086FE142B099D0058AEE8 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F6142B099D0058AEE8 /* moveMeIcon.png */; };
+		23D086FF142B099D0058AEE8 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23D086F7142B099D0058AEE8 /* rowControlsIcon.png */; };
+		23D08702142B09D90058AEE8 /* BIDDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D08701142B09D90058AEE8 /* BIDDisclosureButtonController.m */; };
+		23D08708142B0ACD0058AEE8 /* BIDDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D08707142B0ACD0058AEE8 /* BIDDisclosureDetailController.m */; };
+		23D0870A142B0B990058AEE8 /* BIDDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D08709142B0B990058AEE8 /* BIDDisclosureDetail.xib */; };
+		23D0870D142B0E0F0058AEE8 /* BIDCheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D0870C142B0E0F0058AEE8 /* BIDCheckListController.m */; };
+		23D08710142B0EC80058AEE8 /* BIDRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D0870F142B0EC80058AEE8 /* BIDRowControlsController.m */; };
+		23D08713142B0F480058AEE8 /* BIDMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D08712142B0F480058AEE8 /* BIDMoveMeController.m */; };
+		23D08716142B0FB90058AEE8 /* BIDDeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D08715142B0FB90058AEE8 /* BIDDeleteMeController.m */; };
+		23D08718142B10280058AEE8 /* computers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D08717142B10280058AEE8 /* computers.plist */; };
+		23D0871B142B10650058AEE8 /* BIDPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D0871A142B10640058AEE8 /* BIDPresident.m */; };
+		23D0871D142B10CE0058AEE8 /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23D0871C142B10CE0058AEE8 /* Presidents.plist */; };
+		23D08720142B10F10058AEE8 /* BIDPresidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D0871F142B10F10058AEE8 /* BIDPresidentsViewController.m */; };
+		23D08723142B11550058AEE8 /* BIDPresidentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D08722142B11550058AEE8 /* BIDPresidentDetailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23D086CE142B07620058AEE8 /* Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D086D2142B07620058AEE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23D086D4142B07620058AEE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23D086D6142B07620058AEE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23D086DA142B07620058AEE8 /* Nav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nav-Info.plist"; sourceTree = "<group>"; };
+		23D086DC142B07620058AEE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23D086DE142B07620058AEE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23D086E0142B07620058AEE8 /* Nav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nav-Prefix.pch"; sourceTree = "<group>"; };
+		23D086E1142B07620058AEE8 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		23D086E2142B07620058AEE8 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		23D086E9142B07B50058AEE8 /* BIDFirstLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDFirstLevelController.h; sourceTree = "<group>"; };
+		23D086EA142B07B50058AEE8 /* BIDFirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDFirstLevelController.m; sourceTree = "<group>"; };
+		23D086EC142B08E40058AEE8 /* BIDSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSecondLevelViewController.h; sourceTree = "<group>"; };
+		23D086ED142B08E40058AEE8 /* BIDSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSecondLevelViewController.m; sourceTree = "<group>"; };
+		23D086F0142B099D0058AEE8 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		23D086F1142B099D0058AEE8 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		23D086F2142B099D0058AEE8 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmarkControllerIcon.png; sourceTree = "<group>"; };
+		23D086F3142B099D0058AEE8 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteMeIcon.png; sourceTree = "<group>"; };
+		23D086F4142B099D0058AEE8 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailEditIcon.png; sourceTree = "<group>"; };
+		23D086F5142B099D0058AEE8 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureButtonControllerIcon.png; sourceTree = "<group>"; };
+		23D086F6142B099D0058AEE8 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moveMeIcon.png; sourceTree = "<group>"; };
+		23D086F7142B099D0058AEE8 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowControlsIcon.png; sourceTree = "<group>"; };
+		23D08700142B09D90058AEE8 /* BIDDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureButtonController.h; sourceTree = "<group>"; };
+		23D08701142B09D90058AEE8 /* BIDDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureButtonController.m; sourceTree = "<group>"; };
+		23D08706142B0ACC0058AEE8 /* BIDDisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDisclosureDetailController.h; sourceTree = "<group>"; };
+		23D08707142B0ACD0058AEE8 /* BIDDisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDisclosureDetailController.m; sourceTree = "<group>"; };
+		23D08709142B0B990058AEE8 /* BIDDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDisclosureDetail.xib; sourceTree = "<group>"; };
+		23D0870B142B0E0F0058AEE8 /* BIDCheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckListController.h; sourceTree = "<group>"; };
+		23D0870C142B0E0F0058AEE8 /* BIDCheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckListController.m; sourceTree = "<group>"; };
+		23D0870E142B0EC80058AEE8 /* BIDRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDRowControlsController.h; sourceTree = "<group>"; };
+		23D0870F142B0EC80058AEE8 /* BIDRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDRowControlsController.m; sourceTree = "<group>"; };
+		23D08711142B0F480058AEE8 /* BIDMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDMoveMeController.h; sourceTree = "<group>"; };
+		23D08712142B0F480058AEE8 /* BIDMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDMoveMeController.m; sourceTree = "<group>"; };
+		23D08714142B0FB90058AEE8 /* BIDDeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDeleteMeController.h; sourceTree = "<group>"; };
+		23D08715142B0FB90058AEE8 /* BIDDeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDeleteMeController.m; sourceTree = "<group>"; };
+		23D08717142B10280058AEE8 /* computers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = computers.plist; sourceTree = "<group>"; };
+		23D08719142B10640058AEE8 /* BIDPresident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresident.h; sourceTree = "<group>"; };
+		23D0871A142B10640058AEE8 /* BIDPresident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresident.m; sourceTree = "<group>"; };
+		23D0871C142B10CE0058AEE8 /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		23D0871E142B10F10058AEE8 /* BIDPresidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresidentsViewController.h; sourceTree = "<group>"; };
+		23D0871F142B10F10058AEE8 /* BIDPresidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresidentsViewController.m; sourceTree = "<group>"; };
+		23D08721142B11550058AEE8 /* BIDPresidentDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDPresidentDetailController.h; sourceTree = "<group>"; };
+		23D08722142B11550058AEE8 /* BIDPresidentDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDPresidentDetailController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D086CB142B07620058AEE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D086D3142B07620058AEE8 /* UIKit.framework in Frameworks */,
+				23D086D5142B07620058AEE8 /* Foundation.framework in Frameworks */,
+				23D086D7142B07620058AEE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D086C3142B07610058AEE8 = {
+			isa = PBXGroup;
+			children = (
+				23D086D8142B07620058AEE8 /* Nav */,
+				23D086D1142B07620058AEE8 /* Frameworks */,
+				23D086CF142B07620058AEE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23D086CF142B07620058AEE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D086CE142B07620058AEE8 /* Nav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D086D1142B07620058AEE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23D086D2142B07620058AEE8 /* UIKit.framework */,
+				23D086D4142B07620058AEE8 /* Foundation.framework */,
+				23D086D6142B07620058AEE8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23D086D8142B07620058AEE8 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				23D086EF142B099D0058AEE8 /* Images */,
+				23D086E1142B07620058AEE8 /* BIDAppDelegate.h */,
+				23D086EC142B08E40058AEE8 /* BIDSecondLevelViewController.h */,
+				23D086ED142B08E40058AEE8 /* BIDSecondLevelViewController.m */,
+				23D086E2142B07620058AEE8 /* BIDAppDelegate.m */,
+				23D086D9142B07620058AEE8 /* Supporting Files */,
+				23D086E9142B07B50058AEE8 /* BIDFirstLevelController.h */,
+				23D086EA142B07B50058AEE8 /* BIDFirstLevelController.m */,
+				23D08700142B09D90058AEE8 /* BIDDisclosureButtonController.h */,
+				23D08701142B09D90058AEE8 /* BIDDisclosureButtonController.m */,
+				23D08706142B0ACC0058AEE8 /* BIDDisclosureDetailController.h */,
+				23D08707142B0ACD0058AEE8 /* BIDDisclosureDetailController.m */,
+				23D08709142B0B990058AEE8 /* BIDDisclosureDetail.xib */,
+				23D0870B142B0E0F0058AEE8 /* BIDCheckListController.h */,
+				23D0870C142B0E0F0058AEE8 /* BIDCheckListController.m */,
+				23D0870E142B0EC80058AEE8 /* BIDRowControlsController.h */,
+				23D0870F142B0EC80058AEE8 /* BIDRowControlsController.m */,
+				23D08711142B0F480058AEE8 /* BIDMoveMeController.h */,
+				23D08712142B0F480058AEE8 /* BIDMoveMeController.m */,
+				23D08714142B0FB90058AEE8 /* BIDDeleteMeController.h */,
+				23D08715142B0FB90058AEE8 /* BIDDeleteMeController.m */,
+				23D08717142B10280058AEE8 /* computers.plist */,
+				23D08719142B10640058AEE8 /* BIDPresident.h */,
+				23D0871A142B10640058AEE8 /* BIDPresident.m */,
+				23D0871C142B10CE0058AEE8 /* Presidents.plist */,
+				23D0871E142B10F10058AEE8 /* BIDPresidentsViewController.h */,
+				23D0871F142B10F10058AEE8 /* BIDPresidentsViewController.m */,
+				23D08721142B11550058AEE8 /* BIDPresidentDetailController.h */,
+				23D08722142B11550058AEE8 /* BIDPresidentDetailController.m */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		23D086D9142B07620058AEE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23D086DA142B07620058AEE8 /* Nav-Info.plist */,
+				23D086DB142B07620058AEE8 /* InfoPlist.strings */,
+				23D086DE142B07620058AEE8 /* main.m */,
+				23D086E0142B07620058AEE8 /* Nav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23D086EF142B099D0058AEE8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				23D086F0142B099D0058AEE8 /* button_down.png */,
+				23D086F1142B099D0058AEE8 /* button_up.png */,
+				23D086F2142B099D0058AEE8 /* checkmarkControllerIcon.png */,
+				23D086F3142B099D0058AEE8 /* deleteMeIcon.png */,
+				23D086F4142B099D0058AEE8 /* detailEditIcon.png */,
+				23D086F5142B099D0058AEE8 /* disclosureButtonControllerIcon.png */,
+				23D086F6142B099D0058AEE8 /* moveMeIcon.png */,
+				23D086F7142B099D0058AEE8 /* rowControlsIcon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D086CD142B07620058AEE8 /* Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D086E6142B07620058AEE8 /* Build configuration list for PBXNativeTarget "Nav" */;
+			buildPhases = (
+				23D086CA142B07620058AEE8 /* Sources */,
+				23D086CB142B07620058AEE8 /* Frameworks */,
+				23D086CC142B07620058AEE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nav;
+			productName = Nav;
+			productReference = 23D086CE142B07620058AEE8 /* Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D086C5142B07610058AEE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 23D086C8142B07610058AEE8 /* Build configuration list for PBXProject "Nav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23D086C3142B07610058AEE8;
+			productRefGroup = 23D086CF142B07620058AEE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D086CD142B07620058AEE8 /* Nav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D086CC142B07620058AEE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D086DD142B07620058AEE8 /* InfoPlist.strings in Resources */,
+				23D086F8142B099D0058AEE8 /* button_down.png in Resources */,
+				23D086F9142B099D0058AEE8 /* button_up.png in Resources */,
+				23D086FA142B099D0058AEE8 /* checkmarkControllerIcon.png in Resources */,
+				23D086FB142B099D0058AEE8 /* deleteMeIcon.png in Resources */,
+				23D086FC142B099D0058AEE8 /* detailEditIcon.png in Resources */,
+				23D086FD142B099D0058AEE8 /* disclosureButtonControllerIcon.png in Resources */,
+				23D086FE142B099D0058AEE8 /* moveMeIcon.png in Resources */,
+				23D086FF142B099D0058AEE8 /* rowControlsIcon.png in Resources */,
+				23D0870A142B0B990058AEE8 /* BIDDisclosureDetail.xib in Resources */,
+				23D08718142B10280058AEE8 /* computers.plist in Resources */,
+				23D0871D142B10CE0058AEE8 /* Presidents.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D086CA142B07620058AEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D086DF142B07620058AEE8 /* main.m in Sources */,
+				23D086E3142B07620058AEE8 /* BIDAppDelegate.m in Sources */,
+				23D086EB142B07B50058AEE8 /* BIDFirstLevelController.m in Sources */,
+				23D086EE142B08E40058AEE8 /* BIDSecondLevelViewController.m in Sources */,
+				23D08702142B09D90058AEE8 /* BIDDisclosureButtonController.m in Sources */,
+				23D08708142B0ACD0058AEE8 /* BIDDisclosureDetailController.m in Sources */,
+				23D0870D142B0E0F0058AEE8 /* BIDCheckListController.m in Sources */,
+				23D08710142B0EC80058AEE8 /* BIDRowControlsController.m in Sources */,
+				23D08713142B0F480058AEE8 /* BIDMoveMeController.m in Sources */,
+				23D08716142B0FB90058AEE8 /* BIDDeleteMeController.m in Sources */,
+				23D0871B142B10650058AEE8 /* BIDPresident.m in Sources */,
+				23D08720142B10F10058AEE8 /* BIDPresidentsViewController.m in Sources */,
+				23D08723142B11550058AEE8 /* BIDPresidentDetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23D086DB142B07620058AEE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D086DC142B07620058AEE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23D086E4142B07620058AEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23D086E5142B07620058AEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23D086E7142B07620058AEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
+				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23D086E8142B07620058AEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nav/Nav-Prefix.pch";
+				INFOPLIST_FILE = "Nav/Nav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D086C8142B07610058AEE8 /* Build configuration list for PBXProject "Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D086E4142B07620058AEE8 /* Debug */,
+				23D086E5142B07620058AEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D086E6142B07620058AEE8 /* Build configuration list for PBXNativeTarget "Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D086E7142B07620058AEE8 /* Debug */,
+				23D086E8142B07620058AEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D086C5142B07610058AEE8 /* Project object */;
+}

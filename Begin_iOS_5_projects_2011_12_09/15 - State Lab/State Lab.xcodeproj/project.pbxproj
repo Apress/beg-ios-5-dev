@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814AF38C1439DE0F00BA4C34 /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 814AF38B1439DE0F00BA4C34 /* smiley.png */; };
+		81749A9214395A0000077C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81749A9114395A0000077C1E /* UIKit.framework */; };
+		81749A9414395A0000077C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81749A9314395A0000077C1E /* Foundation.framework */; };
+		81749A9614395A0000077C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81749A9514395A0000077C1E /* CoreGraphics.framework */; };
+		81749A9C14395A0000077C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81749A9A14395A0000077C1E /* InfoPlist.strings */; };
+		81749A9E14395A0000077C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749A9D14395A0000077C1E /* main.m */; };
+		81749AA214395A0000077C1E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749AA114395A0000077C1E /* BIDAppDelegate.m */; };
+		81749AA514395A0000077C1E /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749AA414395A0000077C1E /* BIDViewController.m */; };
+		81749AA814395A0000077C1E /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81749AA614395A0000077C1E /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		814AF38B1439DE0F00BA4C34 /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
+		81749A8D14395A0000077C1E /* State Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "State Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81749A9114395A0000077C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81749A9314395A0000077C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81749A9514395A0000077C1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81749A9914395A0000077C1E /* State Lab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "State Lab-Info.plist"; sourceTree = "<group>"; };
+		81749A9B14395A0000077C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81749A9D14395A0000077C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81749A9F14395A0000077C1E /* State Lab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "State Lab-Prefix.pch"; sourceTree = "<group>"; };
+		81749AA014395A0000077C1E /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		81749AA114395A0000077C1E /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		81749AA314395A0000077C1E /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		81749AA414395A0000077C1E /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		81749AA714395A0000077C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81749A8A14395A0000077C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81749A9214395A0000077C1E /* UIKit.framework in Frameworks */,
+				81749A9414395A0000077C1E /* Foundation.framework in Frameworks */,
+				81749A9614395A0000077C1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81749A8214395A0000077C1E = {
+			isa = PBXGroup;
+			children = (
+				81749A9714395A0000077C1E /* State Lab */,
+				81749A9014395A0000077C1E /* Frameworks */,
+				81749A8E14395A0000077C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81749A8E14395A0000077C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81749A8D14395A0000077C1E /* State Lab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81749A9014395A0000077C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81749A9114395A0000077C1E /* UIKit.framework */,
+				81749A9314395A0000077C1E /* Foundation.framework */,
+				81749A9514395A0000077C1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81749A9714395A0000077C1E /* State Lab */ = {
+			isa = PBXGroup;
+			children = (
+				814AF38B1439DE0F00BA4C34 /* smiley.png */,
+				81749AA014395A0000077C1E /* BIDAppDelegate.h */,
+				81749AA114395A0000077C1E /* BIDAppDelegate.m */,
+				81749AA314395A0000077C1E /* BIDViewController.h */,
+				81749AA414395A0000077C1E /* BIDViewController.m */,
+				81749AA614395A0000077C1E /* BIDViewController.xib */,
+				81749A9814395A0000077C1E /* Supporting Files */,
+			);
+			path = "State Lab";
+			sourceTree = "<group>";
+		};
+		81749A9814395A0000077C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81749A9914395A0000077C1E /* State Lab-Info.plist */,
+				81749A9A14395A0000077C1E /* InfoPlist.strings */,
+				81749A9D14395A0000077C1E /* main.m */,
+				81749A9F14395A0000077C1E /* State Lab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81749A8C14395A0000077C1E /* State Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81749AAB14395A0000077C1E /* Build configuration list for PBXNativeTarget "State Lab" */;
+			buildPhases = (
+				81749A8914395A0000077C1E /* Sources */,
+				81749A8A14395A0000077C1E /* Frameworks */,
+				81749A8B14395A0000077C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "State Lab";
+			productName = "State Lab";
+			productReference = 81749A8D14395A0000077C1E /* State Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81749A8414395A0000077C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81749A8714395A0000077C1E /* Build configuration list for PBXProject "State Lab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81749A8214395A0000077C1E;
+			productRefGroup = 81749A8E14395A0000077C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81749A8C14395A0000077C1E /* State Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81749A8B14395A0000077C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81749A9C14395A0000077C1E /* InfoPlist.strings in Resources */,
+				81749AA814395A0000077C1E /* BIDViewController.xib in Resources */,
+				814AF38C1439DE0F00BA4C34 /* smiley.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81749A8914395A0000077C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81749A9E14395A0000077C1E /* main.m in Sources */,
+				81749AA214395A0000077C1E /* BIDAppDelegate.m in Sources */,
+				81749AA514395A0000077C1E /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81749A9A14395A0000077C1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81749A9B14395A0000077C1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81749AA614395A0000077C1E /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81749AA714395A0000077C1E /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81749AA914395A0000077C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81749AAA14395A0000077C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81749AAC14395A0000077C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "State Lab/State Lab-Prefix.pch";
+				INFOPLIST_FILE = "State Lab/State Lab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81749AAD14395A0000077C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "State Lab/State Lab-Prefix.pch";
+				INFOPLIST_FILE = "State Lab/State Lab-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81749A8714395A0000077C1E /* Build configuration list for PBXProject "State Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81749AA914395A0000077C1E /* Debug */,
+				81749AAA14395A0000077C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81749AAB14395A0000077C1E /* Build configuration list for PBXNativeTarget "State Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81749AAC14395A0000077C1E /* Debug */,
+				81749AAD14395A0000077C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81749A8414395A0000077C1E /* Project object */;
+}

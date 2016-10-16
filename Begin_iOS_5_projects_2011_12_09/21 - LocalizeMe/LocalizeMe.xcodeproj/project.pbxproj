@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812F4187144140BB00A9F5FE /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 812F4189144140BB00A9F5FE /* flag.png */; };
+		812F418B144140DD00A9F5FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F418D144140DD00A9F5FE /* main.m */; };
+		818659651440FB2400938B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818659641440FB2400938B41 /* UIKit.framework */; };
+		818659671440FB2400938B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818659661440FB2400938B41 /* Foundation.framework */; };
+		818659691440FB2400938B41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818659681440FB2400938B41 /* CoreGraphics.framework */; };
+		8186596F1440FB2400938B41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8186596D1440FB2400938B41 /* InfoPlist.strings */; };
+		818659751440FB2400938B41 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 818659741440FB2400938B41 /* BIDAppDelegate.m */; };
+		818659781440FB2400938B41 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818659771440FB2400938B41 /* BIDViewController.m */; };
+		8186597B1440FB2400938B41 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818659791440FB2400938B41 /* BIDViewController.xib */; };
+		81BB8441144286200010CEBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81BB8443144286200010CEBC /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		811F694F144102D1003FEB76 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		812F4188144140BB00A9F5FE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		812F418C144140DD00A9F5FE /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/main.m; sourceTree = "<group>"; };
+		812F418E144141AC00A9F5FE /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
+		818659601440FB2400938B41 /* LocalizeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818659641440FB2400938B41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		818659661440FB2400938B41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		818659681440FB2400938B41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8186596C1440FB2400938B41 /* LocalizeMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeMe-Info.plist"; sourceTree = "<group>"; };
+		8186596E1440FB2400938B41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		818659721440FB2400938B41 /* LocalizeMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalizeMe-Prefix.pch"; sourceTree = "<group>"; };
+		818659731440FB2400938B41 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		818659741440FB2400938B41 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		818659761440FB2400938B41 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		818659771440FB2400938B41 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		8186597A1440FB2400938B41 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		81BB8442144286200010CEBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81BB8444144286600010CEBC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		81BB8445144289930010CEBC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8186595D1440FB2400938B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818659651440FB2400938B41 /* UIKit.framework in Frameworks */,
+				818659671440FB2400938B41 /* Foundation.framework in Frameworks */,
+				818659691440FB2400938B41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		818659551440FB2400938B41 = {
+			isa = PBXGroup;
+			children = (
+				8186596A1440FB2400938B41 /* LocalizeMe */,
+				818659631440FB2400938B41 /* Frameworks */,
+				818659611440FB2400938B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818659611440FB2400938B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818659601440FB2400938B41 /* LocalizeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818659631440FB2400938B41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818659641440FB2400938B41 /* UIKit.framework */,
+				818659661440FB2400938B41 /* Foundation.framework */,
+				818659681440FB2400938B41 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8186596A1440FB2400938B41 /* LocalizeMe */ = {
+			isa = PBXGroup;
+			children = (
+				81BB8443144286200010CEBC /* Localizable.strings */,
+				812F4189144140BB00A9F5FE /* flag.png */,
+				818659731440FB2400938B41 /* BIDAppDelegate.h */,
+				818659741440FB2400938B41 /* BIDAppDelegate.m */,
+				818659761440FB2400938B41 /* BIDViewController.h */,
+				818659771440FB2400938B41 /* BIDViewController.m */,
+				818659791440FB2400938B41 /* BIDViewController.xib */,
+				8186596B1440FB2400938B41 /* Supporting Files */,
+			);
+			path = LocalizeMe;
+			sourceTree = "<group>";
+		};
+		8186596B1440FB2400938B41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8186596C1440FB2400938B41 /* LocalizeMe-Info.plist */,
+				8186596D1440FB2400938B41 /* InfoPlist.strings */,
+				812F418D144140DD00A9F5FE /* main.m */,
+				818659721440FB2400938B41 /* LocalizeMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8186595F1440FB2400938B41 /* LocalizeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8186597E1440FB2400938B41 /* Build configuration list for PBXNativeTarget "LocalizeMe" */;
+			buildPhases = (
+				8186595C1440FB2400938B41 /* Sources */,
+				8186595D1440FB2400938B41 /* Frameworks */,
+				8186595E1440FB2400938B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizeMe;
+			productName = LocalizeMe;
+			productReference = 818659601440FB2400938B41 /* LocalizeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818659571440FB2400938B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 8186595A1440FB2400938B41 /* Build configuration list for PBXProject "LocalizeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 818659551440FB2400938B41;
+			productRefGroup = 818659611440FB2400938B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8186595F1440FB2400938B41 /* LocalizeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8186595E1440FB2400938B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8186596F1440FB2400938B41 /* InfoPlist.strings in Resources */,
+				8186597B1440FB2400938B41 /* BIDViewController.xib in Resources */,
+				812F4187144140BB00A9F5FE /* flag.png in Resources */,
+				81BB8441144286200010CEBC /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8186595C1440FB2400938B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812F418B144140DD00A9F5FE /* main.m in Sources */,
+				818659751440FB2400938B41 /* BIDAppDelegate.m in Sources */,
+				818659781440FB2400938B41 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		812F4189144140BB00A9F5FE /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812F4188144140BB00A9F5FE /* en */,
+				812F418E144141AC00A9F5FE /* fr */,
+			);
+			name = flag.png;
+			sourceTree = "<group>";
+		};
+		812F418D144140DD00A9F5FE /* main.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812F418C144140DD00A9F5FE /* en */,
+			);
+			name = main.m;
+			sourceTree = "<group>";
+		};
+		8186596D1440FB2400938B41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8186596E1440FB2400938B41 /* en */,
+				81BB8445144289930010CEBC /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		818659791440FB2400938B41 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8186597A1440FB2400938B41 /* en */,
+				811F694F144102D1003FEB76 /* fr */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+		81BB8443144286200010CEBC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BB8442144286200010CEBC /* en */,
+				81BB8444144286600010CEBC /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8186597C1440FB2400938B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8186597D1440FB2400938B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8186597F1440FB2400938B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMe/LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		818659801440FB2400938B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalizeMe/LocalizeMe-Prefix.pch";
+				INFOPLIST_FILE = "LocalizeMe/LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8186595A1440FB2400938B41 /* Build configuration list for PBXProject "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8186597C1440FB2400938B41 /* Debug */,
+				8186597D1440FB2400938B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8186597E1440FB2400938B41 /* Build configuration list for PBXNativeTarget "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8186597F1440FB2400938B41 /* Debug */,
+				818659801440FB2400938B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818659571440FB2400938B41 /* Project object */;
+}

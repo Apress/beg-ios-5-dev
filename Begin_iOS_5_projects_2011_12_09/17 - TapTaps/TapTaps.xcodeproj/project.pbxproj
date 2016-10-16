@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817499101437E51B00077C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8174990F1437E51B00077C1E /* UIKit.framework */; };
+		817499121437E51B00077C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817499111437E51B00077C1E /* Foundation.framework */; };
+		817499141437E51B00077C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817499131437E51B00077C1E /* CoreGraphics.framework */; };
+		8174991A1437E51B00077C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817499181437E51B00077C1E /* InfoPlist.strings */; };
+		8174991C1437E51B00077C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8174991B1437E51B00077C1E /* main.m */; };
+		817499201437E51B00077C1E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8174991F1437E51B00077C1E /* BIDAppDelegate.m */; };
+		817499231437E51B00077C1E /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817499221437E51B00077C1E /* BIDViewController.m */; };
+		817499261437E51B00077C1E /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 817499241437E51B00077C1E /* BIDViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8174990B1437E51B00077C1E /* TapTaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8174990F1437E51B00077C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		817499111437E51B00077C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		817499131437E51B00077C1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		817499171437E51B00077C1E /* TapTaps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapTaps-Info.plist"; sourceTree = "<group>"; };
+		817499191437E51B00077C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8174991B1437E51B00077C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8174991D1437E51B00077C1E /* TapTaps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapTaps-Prefix.pch"; sourceTree = "<group>"; };
+		8174991E1437E51B00077C1E /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		8174991F1437E51B00077C1E /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		817499211437E51B00077C1E /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		817499221437E51B00077C1E /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		817499251437E51B00077C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817499081437E51B00077C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817499101437E51B00077C1E /* UIKit.framework in Frameworks */,
+				817499121437E51B00077C1E /* Foundation.framework in Frameworks */,
+				817499141437E51B00077C1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817499001437E51B00077C1E = {
+			isa = PBXGroup;
+			children = (
+				817499151437E51B00077C1E /* TapTaps */,
+				8174990E1437E51B00077C1E /* Frameworks */,
+				8174990C1437E51B00077C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8174990C1437E51B00077C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8174990B1437E51B00077C1E /* TapTaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8174990E1437E51B00077C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8174990F1437E51B00077C1E /* UIKit.framework */,
+				817499111437E51B00077C1E /* Foundation.framework */,
+				817499131437E51B00077C1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		817499151437E51B00077C1E /* TapTaps */ = {
+			isa = PBXGroup;
+			children = (
+				8174991E1437E51B00077C1E /* BIDAppDelegate.h */,
+				8174991F1437E51B00077C1E /* BIDAppDelegate.m */,
+				817499211437E51B00077C1E /* BIDViewController.h */,
+				817499221437E51B00077C1E /* BIDViewController.m */,
+				817499241437E51B00077C1E /* BIDViewController.xib */,
+				817499161437E51B00077C1E /* Supporting Files */,
+			);
+			path = TapTaps;
+			sourceTree = "<group>";
+		};
+		817499161437E51B00077C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817499171437E51B00077C1E /* TapTaps-Info.plist */,
+				817499181437E51B00077C1E /* InfoPlist.strings */,
+				8174991B1437E51B00077C1E /* main.m */,
+				8174991D1437E51B00077C1E /* TapTaps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8174990A1437E51B00077C1E /* TapTaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817499291437E51B00077C1E /* Build configuration list for PBXNativeTarget "TapTaps" */;
+			buildPhases = (
+				817499071437E51B00077C1E /* Sources */,
+				817499081437E51B00077C1E /* Frameworks */,
+				817499091437E51B00077C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapTaps;
+			productName = TapTaps;
+			productReference = 8174990B1437E51B00077C1E /* TapTaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817499021437E51B00077C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 817499051437E51B00077C1E /* Build configuration list for PBXProject "TapTaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 817499001437E51B00077C1E;
+			productRefGroup = 8174990C1437E51B00077C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8174990A1437E51B00077C1E /* TapTaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817499091437E51B00077C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174991A1437E51B00077C1E /* InfoPlist.strings in Resources */,
+				817499261437E51B00077C1E /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817499071437E51B00077C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174991C1437E51B00077C1E /* main.m in Sources */,
+				817499201437E51B00077C1E /* BIDAppDelegate.m in Sources */,
+				817499231437E51B00077C1E /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		817499181437E51B00077C1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817499191437E51B00077C1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		817499241437E51B00077C1E /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817499251437E51B00077C1E /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817499271437E51B00077C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		817499281437E51B00077C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8174992A1437E51B00077C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTaps/TapTaps-Prefix.pch";
+				INFOPLIST_FILE = "TapTaps/TapTaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8174992B1437E51B00077C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapTaps/TapTaps-Prefix.pch";
+				INFOPLIST_FILE = "TapTaps/TapTaps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817499051437E51B00077C1E /* Build configuration list for PBXProject "TapTaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817499271437E51B00077C1E /* Debug */,
+				817499281437E51B00077C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817499291437E51B00077C1E /* Build configuration list for PBXNativeTarget "TapTaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8174992A1437E51B00077C1E /* Debug */,
+				8174992B1437E51B00077C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817499021437E51B00077C1E /* Project object */;
+}

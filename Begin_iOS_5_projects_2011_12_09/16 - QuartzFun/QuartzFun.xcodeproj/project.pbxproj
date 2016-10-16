@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81AF204F1459F1180037584E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AF204E1459F1180037584E /* UIKit.framework */; };
+		81AF20511459F1180037584E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AF20501459F1180037584E /* Foundation.framework */; };
+		81AF20531459F1180037584E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AF20521459F1180037584E /* CoreGraphics.framework */; };
+		81AF20591459F1180037584E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81AF20571459F1180037584E /* InfoPlist.strings */; };
+		81AF205B1459F1180037584E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF205A1459F1180037584E /* main.m */; };
+		81AF205F1459F1180037584E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF205E1459F1180037584E /* BIDAppDelegate.m */; };
+		81AF20621459F1180037584E /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF20611459F1180037584E /* BIDViewController.m */; };
+		81AF20651459F1180037584E /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81AF20631459F1180037584E /* BIDViewController.xib */; };
+		81AF20711459F17F0037584E /* BIDQuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF20701459F17F0037584E /* BIDQuartzFunView.m */; };
+		81AF2076145A1B6B0037584E /* UIColor+BIDRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AF2075145A1B6B0037584E /* UIColor+BIDRandom.m */; };
+		81AF207C145B31D10037584E /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AF207B145B31D10037584E /* iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81AF204A1459F1180037584E /* QuartzFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AF204E1459F1180037584E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81AF20501459F1180037584E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81AF20521459F1180037584E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81AF20561459F1180037584E /* QuartzFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzFun-Info.plist"; sourceTree = "<group>"; };
+		81AF20581459F1180037584E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81AF205A1459F1180037584E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81AF205C1459F1180037584E /* QuartzFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzFun-Prefix.pch"; sourceTree = "<group>"; };
+		81AF205D1459F1180037584E /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		81AF205E1459F1180037584E /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		81AF20601459F1180037584E /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		81AF20611459F1180037584E /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		81AF20641459F1180037584E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		81AF206F1459F17F0037584E /* BIDQuartzFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDQuartzFunView.h; sourceTree = "<group>"; };
+		81AF20701459F17F0037584E /* BIDQuartzFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDQuartzFunView.m; sourceTree = "<group>"; };
+		81AF2073145A1B110037584E /* BIDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDConstants.h; sourceTree = "<group>"; };
+		81AF2074145A1B6B0037584E /* UIColor+BIDRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BIDRandom.h"; sourceTree = "<group>"; };
+		81AF2075145A1B6B0037584E /* UIColor+BIDRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BIDRandom.m"; sourceTree = "<group>"; };
+		81AF207B145B31D10037584E /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81AF20471459F1180037584E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AF204F1459F1180037584E /* UIKit.framework in Frameworks */,
+				81AF20511459F1180037584E /* Foundation.framework in Frameworks */,
+				81AF20531459F1180037584E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81AF203F1459F1180037584E = {
+			isa = PBXGroup;
+			children = (
+				81AF20541459F1180037584E /* QuartzFun */,
+				81AF204D1459F1180037584E /* Frameworks */,
+				81AF204B1459F1180037584E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81AF204B1459F1180037584E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81AF204A1459F1180037584E /* QuartzFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81AF204D1459F1180037584E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AF204E1459F1180037584E /* UIKit.framework */,
+				81AF20501459F1180037584E /* Foundation.framework */,
+				81AF20521459F1180037584E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81AF20541459F1180037584E /* QuartzFun */ = {
+			isa = PBXGroup;
+			children = (
+				81AF205D1459F1180037584E /* BIDAppDelegate.h */,
+				81AF205E1459F1180037584E /* BIDAppDelegate.m */,
+				81AF20601459F1180037584E /* BIDViewController.h */,
+				81AF20611459F1180037584E /* BIDViewController.m */,
+				81AF20631459F1180037584E /* BIDViewController.xib */,
+				81AF20551459F1180037584E /* Supporting Files */,
+				81AF206F1459F17F0037584E /* BIDQuartzFunView.h */,
+				81AF20701459F17F0037584E /* BIDQuartzFunView.m */,
+				81AF2073145A1B110037584E /* BIDConstants.h */,
+				81AF2074145A1B6B0037584E /* UIColor+BIDRandom.h */,
+				81AF2075145A1B6B0037584E /* UIColor+BIDRandom.m */,
+			);
+			path = QuartzFun;
+			sourceTree = "<group>";
+		};
+		81AF20551459F1180037584E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81AF207B145B31D10037584E /* iphone.png */,
+				81AF20561459F1180037584E /* QuartzFun-Info.plist */,
+				81AF20571459F1180037584E /* InfoPlist.strings */,
+				81AF205A1459F1180037584E /* main.m */,
+				81AF205C1459F1180037584E /* QuartzFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81AF20491459F1180037584E /* QuartzFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AF20681459F1180037584E /* Build configuration list for PBXNativeTarget "QuartzFun" */;
+			buildPhases = (
+				81AF20461459F1180037584E /* Sources */,
+				81AF20471459F1180037584E /* Frameworks */,
+				81AF20481459F1180037584E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzFun;
+			productName = QuartzFun;
+			productReference = 81AF204A1459F1180037584E /* QuartzFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81AF20411459F1180037584E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81AF20441459F1180037584E /* Build configuration list for PBXProject "QuartzFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81AF203F1459F1180037584E;
+			productRefGroup = 81AF204B1459F1180037584E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81AF20491459F1180037584E /* QuartzFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81AF20481459F1180037584E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AF20591459F1180037584E /* InfoPlist.strings in Resources */,
+				81AF20651459F1180037584E /* BIDViewController.xib in Resources */,
+				81AF207C145B31D10037584E /* iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81AF20461459F1180037584E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AF205B1459F1180037584E /* main.m in Sources */,
+				81AF205F1459F1180037584E /* BIDAppDelegate.m in Sources */,
+				81AF20621459F1180037584E /* BIDViewController.m in Sources */,
+				81AF20711459F17F0037584E /* BIDQuartzFunView.m in Sources */,
+				81AF2076145A1B6B0037584E /* UIColor+BIDRandom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81AF20571459F1180037584E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81AF20581459F1180037584E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81AF20631459F1180037584E /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81AF20641459F1180037584E /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81AF20661459F1180037584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81AF20671459F1180037584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81AF20691459F1180037584E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
+				INFOPLIST_FILE = "QuartzFun/QuartzFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81AF206A1459F1180037584E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
+				INFOPLIST_FILE = "QuartzFun/QuartzFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81AF20441459F1180037584E /* Build configuration list for PBXProject "QuartzFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AF20661459F1180037584E /* Debug */,
+				81AF20671459F1180037584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81AF20681459F1180037584E /* Build configuration list for PBXNativeTarget "QuartzFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AF20691459F1180037584E /* Debug */,
+				81AF206A1459F1180037584E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81AF20411459F1180037584E /* Project object */;
+}

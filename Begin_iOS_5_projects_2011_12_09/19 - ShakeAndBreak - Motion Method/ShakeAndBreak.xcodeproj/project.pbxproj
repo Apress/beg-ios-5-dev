@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2337B25014390B5B00C93CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2337B24F14390B5B00C93CF0 /* UIKit.framework */; };
+		2337B25214390B5B00C93CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2337B25114390B5B00C93CF0 /* Foundation.framework */; };
+		2337B25414390B5B00C93CF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2337B25314390B5B00C93CF0 /* CoreGraphics.framework */; };
+		2337B25A14390B5B00C93CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2337B25814390B5B00C93CF0 /* InfoPlist.strings */; };
+		2337B25C14390B5B00C93CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337B25B14390B5B00C93CF0 /* main.m */; };
+		2337B26014390B5B00C93CF0 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337B25F14390B5B00C93CF0 /* BIDAppDelegate.m */; };
+		2337B26314390B5B00C93CF0 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2337B26214390B5B00C93CF0 /* BIDViewController.m */; };
+		2337B26614390B5B00C93CF0 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2337B26414390B5B00C93CF0 /* BIDViewController.xib */; };
+		2337B27014390D5F00C93CF0 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2337B26C14390D5F00C93CF0 /* glass.wav */; };
+		2337B27114390D5F00C93CF0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 2337B26D14390D5F00C93CF0 /* home.png */; };
+		2337B27214390D5F00C93CF0 /* homebroken.png in Resources */ = {isa = PBXBuildFile; fileRef = 2337B26E14390D5F00C93CF0 /* homebroken.png */; };
+		2337B27314390D5F00C93CF0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2337B26F14390D5F00C93CF0 /* icon.png */; };
+		2337B27514390FB900C93CF0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2337B27414390FB900C93CF0 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2337B24B14390B5B00C93CF0 /* ShakeAndBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAndBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2337B24F14390B5B00C93CF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2337B25114390B5B00C93CF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2337B25314390B5B00C93CF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2337B25714390B5B00C93CF0 /* ShakeAndBreak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAndBreak-Info.plist"; sourceTree = "<group>"; };
+		2337B25914390B5B00C93CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2337B25B14390B5B00C93CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2337B25D14390B5B00C93CF0 /* ShakeAndBreak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeAndBreak-Prefix.pch"; sourceTree = "<group>"; };
+		2337B25E14390B5B00C93CF0 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		2337B25F14390B5B00C93CF0 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		2337B26114390B5B00C93CF0 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		2337B26214390B5B00C93CF0 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		2337B26514390B5B00C93CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		2337B26C14390D5F00C93CF0 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		2337B26D14390D5F00C93CF0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		2337B26E14390D5F00C93CF0 /* homebroken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebroken.png; sourceTree = "<group>"; };
+		2337B26F14390D5F00C93CF0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2337B27414390FB900C93CF0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2337B24814390B5B00C93CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2337B27514390FB900C93CF0 /* AudioToolbox.framework in Frameworks */,
+				2337B25014390B5B00C93CF0 /* UIKit.framework in Frameworks */,
+				2337B25214390B5B00C93CF0 /* Foundation.framework in Frameworks */,
+				2337B25414390B5B00C93CF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2337B24014390B5A00C93CF0 = {
+			isa = PBXGroup;
+			children = (
+				2337B27414390FB900C93CF0 /* AudioToolbox.framework */,
+				2337B25514390B5B00C93CF0 /* ShakeAndBreak */,
+				2337B24E14390B5B00C93CF0 /* Frameworks */,
+				2337B24C14390B5B00C93CF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2337B24C14390B5B00C93CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2337B24B14390B5B00C93CF0 /* ShakeAndBreak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2337B24E14390B5B00C93CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2337B24F14390B5B00C93CF0 /* UIKit.framework */,
+				2337B25114390B5B00C93CF0 /* Foundation.framework */,
+				2337B25314390B5B00C93CF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2337B25514390B5B00C93CF0 /* ShakeAndBreak */ = {
+			isa = PBXGroup;
+			children = (
+				2337B26C14390D5F00C93CF0 /* glass.wav */,
+				2337B26D14390D5F00C93CF0 /* home.png */,
+				2337B26E14390D5F00C93CF0 /* homebroken.png */,
+				2337B26F14390D5F00C93CF0 /* icon.png */,
+				2337B25E14390B5B00C93CF0 /* BIDAppDelegate.h */,
+				2337B25F14390B5B00C93CF0 /* BIDAppDelegate.m */,
+				2337B26114390B5B00C93CF0 /* BIDViewController.h */,
+				2337B26214390B5B00C93CF0 /* BIDViewController.m */,
+				2337B26414390B5B00C93CF0 /* BIDViewController.xib */,
+				2337B25614390B5B00C93CF0 /* Supporting Files */,
+			);
+			path = ShakeAndBreak;
+			sourceTree = "<group>";
+		};
+		2337B25614390B5B00C93CF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2337B25714390B5B00C93CF0 /* ShakeAndBreak-Info.plist */,
+				2337B25814390B5B00C93CF0 /* InfoPlist.strings */,
+				2337B25B14390B5B00C93CF0 /* main.m */,
+				2337B25D14390B5B00C93CF0 /* ShakeAndBreak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2337B24A14390B5B00C93CF0 /* ShakeAndBreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2337B26914390B5B00C93CF0 /* Build configuration list for PBXNativeTarget "ShakeAndBreak" */;
+			buildPhases = (
+				2337B24714390B5B00C93CF0 /* Sources */,
+				2337B24814390B5B00C93CF0 /* Frameworks */,
+				2337B24914390B5B00C93CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAndBreak;
+			productName = ShakeAndBreak;
+			productReference = 2337B24B14390B5B00C93CF0 /* ShakeAndBreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2337B24214390B5A00C93CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2337B24514390B5A00C93CF0 /* Build configuration list for PBXProject "ShakeAndBreak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2337B24014390B5A00C93CF0;
+			productRefGroup = 2337B24C14390B5B00C93CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2337B24A14390B5B00C93CF0 /* ShakeAndBreak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2337B24914390B5B00C93CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2337B25A14390B5B00C93CF0 /* InfoPlist.strings in Resources */,
+				2337B26614390B5B00C93CF0 /* BIDViewController.xib in Resources */,
+				2337B27014390D5F00C93CF0 /* glass.wav in Resources */,
+				2337B27114390D5F00C93CF0 /* home.png in Resources */,
+				2337B27214390D5F00C93CF0 /* homebroken.png in Resources */,
+				2337B27314390D5F00C93CF0 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2337B24714390B5B00C93CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2337B25C14390B5B00C93CF0 /* main.m in Sources */,
+				2337B26014390B5B00C93CF0 /* BIDAppDelegate.m in Sources */,
+				2337B26314390B5B00C93CF0 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2337B25814390B5B00C93CF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2337B25914390B5B00C93CF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2337B26414390B5B00C93CF0 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2337B26514390B5B00C93CF0 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2337B26714390B5B00C93CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2337B26814390B5B00C93CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2337B26A14390B5B00C93CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak/ShakeAndBreak-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak/ShakeAndBreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2337B26B14390B5B00C93CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBreak/ShakeAndBreak-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBreak/ShakeAndBreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2337B24514390B5A00C93CF0 /* Build configuration list for PBXProject "ShakeAndBreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2337B26714390B5B00C93CF0 /* Debug */,
+				2337B26814390B5B00C93CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2337B26914390B5B00C93CF0 /* Build configuration list for PBXNativeTarget "ShakeAndBreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2337B26A14390B5B00C93CF0 /* Debug */,
+				2337B26B14390B5B00C93CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2337B24214390B5A00C93CF0 /* Project object */;
+}

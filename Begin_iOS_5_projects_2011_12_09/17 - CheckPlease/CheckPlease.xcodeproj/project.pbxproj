@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81749A57143953DA00077C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81749A56143953DA00077C1E /* UIKit.framework */; };
+		81749A59143953DA00077C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81749A58143953DA00077C1E /* Foundation.framework */; };
+		81749A5B143953DA00077C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81749A5A143953DA00077C1E /* CoreGraphics.framework */; };
+		81749A61143953DA00077C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81749A5F143953DA00077C1E /* InfoPlist.strings */; };
+		81749A63143953DA00077C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749A62143953DA00077C1E /* main.m */; };
+		81749A67143953DA00077C1E /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749A66143953DA00077C1E /* BIDAppDelegate.m */; };
+		81749A6A143953DA00077C1E /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749A69143953DA00077C1E /* BIDViewController.m */; };
+		81749A6D143953DA00077C1E /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81749A6B143953DA00077C1E /* BIDViewController.xib */; };
+		81749A79143955B100077C1E /* CGPointUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 81749A77143955B100077C1E /* CGPointUtils.c */; };
+		81749A7D1439560E00077C1E /* BIDCheckMarkRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81749A7C1439560E00077C1E /* BIDCheckMarkRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81749A52143953DA00077C1E /* CheckPlease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckPlease.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81749A56143953DA00077C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81749A58143953DA00077C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81749A5A143953DA00077C1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81749A5E143953DA00077C1E /* CheckPlease-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckPlease-Info.plist"; sourceTree = "<group>"; };
+		81749A60143953DA00077C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81749A62143953DA00077C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81749A64143953DA00077C1E /* CheckPlease-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheckPlease-Prefix.pch"; sourceTree = "<group>"; };
+		81749A65143953DA00077C1E /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		81749A66143953DA00077C1E /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		81749A68143953DA00077C1E /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		81749A69143953DA00077C1E /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		81749A6C143953DA00077C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		81749A77143955B100077C1E /* CGPointUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CGPointUtils.c; sourceTree = "<group>"; };
+		81749A78143955B100077C1E /* CGPointUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointUtils.h; sourceTree = "<group>"; };
+		81749A7B1439560E00077C1E /* BIDCheckMarkRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCheckMarkRecognizer.h; sourceTree = "<group>"; };
+		81749A7C1439560E00077C1E /* BIDCheckMarkRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCheckMarkRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81749A4F143953DA00077C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81749A57143953DA00077C1E /* UIKit.framework in Frameworks */,
+				81749A59143953DA00077C1E /* Foundation.framework in Frameworks */,
+				81749A5B143953DA00077C1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81749A47143953DA00077C1E = {
+			isa = PBXGroup;
+			children = (
+				81749A5C143953DA00077C1E /* CheckPlease */,
+				81749A55143953DA00077C1E /* Frameworks */,
+				81749A53143953DA00077C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81749A53143953DA00077C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81749A52143953DA00077C1E /* CheckPlease.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81749A55143953DA00077C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81749A56143953DA00077C1E /* UIKit.framework */,
+				81749A58143953DA00077C1E /* Foundation.framework */,
+				81749A5A143953DA00077C1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81749A5C143953DA00077C1E /* CheckPlease */ = {
+			isa = PBXGroup;
+			children = (
+				81749A77143955B100077C1E /* CGPointUtils.c */,
+				81749A78143955B100077C1E /* CGPointUtils.h */,
+				81749A65143953DA00077C1E /* BIDAppDelegate.h */,
+				81749A66143953DA00077C1E /* BIDAppDelegate.m */,
+				81749A68143953DA00077C1E /* BIDViewController.h */,
+				81749A69143953DA00077C1E /* BIDViewController.m */,
+				81749A6B143953DA00077C1E /* BIDViewController.xib */,
+				81749A5D143953DA00077C1E /* Supporting Files */,
+				81749A7B1439560E00077C1E /* BIDCheckMarkRecognizer.h */,
+				81749A7C1439560E00077C1E /* BIDCheckMarkRecognizer.m */,
+			);
+			path = CheckPlease;
+			sourceTree = "<group>";
+		};
+		81749A5D143953DA00077C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81749A5E143953DA00077C1E /* CheckPlease-Info.plist */,
+				81749A5F143953DA00077C1E /* InfoPlist.strings */,
+				81749A62143953DA00077C1E /* main.m */,
+				81749A64143953DA00077C1E /* CheckPlease-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81749A51143953DA00077C1E /* CheckPlease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81749A70143953DA00077C1E /* Build configuration list for PBXNativeTarget "CheckPlease" */;
+			buildPhases = (
+				81749A4E143953DA00077C1E /* Sources */,
+				81749A4F143953DA00077C1E /* Frameworks */,
+				81749A50143953DA00077C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckPlease;
+			productName = CheckPlease;
+			productReference = 81749A52143953DA00077C1E /* CheckPlease.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81749A49143953DA00077C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dave Mark";
+			};
+			buildConfigurationList = 81749A4C143953DA00077C1E /* Build configuration list for PBXProject "CheckPlease" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81749A47143953DA00077C1E;
+			productRefGroup = 81749A53143953DA00077C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81749A51143953DA00077C1E /* CheckPlease */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81749A50143953DA00077C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81749A61143953DA00077C1E /* InfoPlist.strings in Resources */,
+				81749A6D143953DA00077C1E /* BIDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81749A4E143953DA00077C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81749A63143953DA00077C1E /* main.m in Sources */,
+				81749A67143953DA00077C1E /* BIDAppDelegate.m in Sources */,
+				81749A6A143953DA00077C1E /* BIDViewController.m in Sources */,
+				81749A79143955B100077C1E /* CGPointUtils.c in Sources */,
+				81749A7D1439560E00077C1E /* BIDCheckMarkRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81749A5F143953DA00077C1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81749A60143953DA00077C1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81749A6B143953DA00077C1E /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81749A6C143953DA00077C1E /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81749A6E143953DA00077C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81749A6F143953DA00077C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81749A71143953DA00077C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckPlease/CheckPlease-Prefix.pch";
+				INFOPLIST_FILE = "CheckPlease/CheckPlease-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81749A72143953DA00077C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CheckPlease/CheckPlease-Prefix.pch";
+				INFOPLIST_FILE = "CheckPlease/CheckPlease-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81749A4C143953DA00077C1E /* Build configuration list for PBXProject "CheckPlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81749A6E143953DA00077C1E /* Debug */,
+				81749A6F143953DA00077C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81749A70143953DA00077C1E /* Build configuration list for PBXNativeTarget "CheckPlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81749A71143953DA00077C1E /* Debug */,
+				81749A72143953DA00077C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81749A49143953DA00077C1E /* Project object */;
+}
